@@ -1,10 +1,6 @@
 Rake tasks to run tests in parallel, to use multiple CPUs and speedup test runtime.
 
-Based very heavily on http://github.com/grosser/parallel_specs/tree/master
-i.e. I searched and replaced spec with test where appropriate.
-
-Eventually I'd prefer to submit a patch that just makes parallel_specs flexible
-enough to run Test::Unit tests as well.
+Based
 
 Setup
 =====
@@ -61,4 +57,6 @@ Author
 inspired by [pivotal labs](http://pivotallabs.com/users/miked/blog/articles/849-parallelize-your-rspec-suite)  
 [Michael Grosser](http://pragmatig.wordpress.com)  
 grosser.michael@gmail.com  
+[Jason Morrison](http://jayunit.net) converted from specs to tests
+jmorrison@thoughtbot.com
 Hereby placed under public domain, do what you want, just do not hold me accountable...
