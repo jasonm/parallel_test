@@ -1,6 +1,10 @@
 Rake tasks to run tests in parallel, to use multiple CPUs and speedup test runtime.
 
-Based
+Based very heavily on http://github.com/grosser/parallel_specs/tree/master
+i.e. I searched and replaced spec with test where appropriate.
+
+Eventually I'd prefer to submit a patch that just makes parallel_specs flexible
+enough to run Test::Unit tests as well.
 
 Setup
 =====
