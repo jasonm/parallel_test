@@ -6,7 +6,7 @@ of parallel_spec with a handful of changes to run test/**/*_test.rb instead of s
 Setup
 =====
 
-    script/plugin install git://github.com/jasonm/parallel_tests.git
+    script/plugin install git://github.com/jasonm/parallel_test.git
 
 Copy your test environment inside `config/database.yml` once for every cpu you got ('test'+number).
 
